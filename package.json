@@ -7,8 +7,16 @@
     "start": "serve .",
     "build": "echo 'Static site - no build needed'"
   },
-  "keywords": ["monitoring", "ai", "operations", "network"],
+  "keywords": [
+    "monitoring",
+    "ai",
+    "operations",
+    "network"
+  ],
   "author": "Roy - CR AudioViz AI",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
 }
