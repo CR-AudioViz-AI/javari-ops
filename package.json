@@ -1,22 +1,29 @@
 {
-  "name": "ai-ops-center",
-  "version": "3.1.0",
-  "description": "AI Operations Command Center v3.1 for CR AudioViz AI",
-  "main": "index.html",
-  "scripts": {
-    "start": "serve .",
-    "build": "echo 'Static site - no build needed'"
-  },
-  "keywords": [
-    "monitoring",
-    "ai",
-    "operations",
-    "network"
-  ],
-  "author": "Roy - CR AudioViz AI",
-  "license": "UNLICENSED",
+  "name": "crav-ops-center",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0"
+    "next": "14.2.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.577.0",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.35"
   }
 }
